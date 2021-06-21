@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.buttons{
+    display: flex;
+    justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.digitinput{
+    display: flex;
+    justify-content: center;
+}
+
+.input_area{
+    text-align:center;
+}
+
+.errormessage{
+    color:red;
+    margin: 0px;
+    display: inline-block;
+    text-align: left;
+}
+
+.logtitle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.logtitle >:not(:last-child){
+    flex-basis: 100px;
+    background-color: slategray;
+}
+
+.logtitle >:last-child{
+    background-color: slategray;
+}
+
+.logrow{
+    /*display: flex;*/
+    display: flex;
+    justify-content: center;
+}
+
+.logrow >:not(:last-child){
+    flex-basis: 100px;
+    border-bottom: solid 2px  slategray;
+    margin-top: 0px;
+}
+
+.logrow >:last-child{
+    border-bottom: solid 2px  slategray;
+    margin-top: 0px;
+}
+
+h1{
+    color:slategray;
+    font-size: 50px;
+    text-align:center;
+}
+
+.correctmessage{
+    text-align:center;
+    font-size: 30px;
+}
+
+span{
+    color:slategray;
 }
