@@ -23,8 +23,8 @@ class Main extends React.Component {
   }
 
   
-  //リロードしてもstateがリセットされないようにlocalstorageを用いる　https://nari19.me/190711/
-  //初回のみ実行
+  /*リロードしてもstateがリセットされないようにlocalstorageを用いる　https://nari19.me/190711/
+  初回のみ実行*/
   componentDidMount(){
     if(localStorage.app){
       const saveDate = JSON.parse(localStorage.app);
@@ -35,7 +35,7 @@ class Main extends React.Component {
     }
   }
 
-  //stateが変更されたら実行
+  /*stateが変更されたら実行*/
   componentDidUpdate(){
     localStorage.setItem('app',JSON.stringify(this.state));
   }
@@ -117,7 +117,6 @@ class Main extends React.Component {
         }
       }
     }
-    //alert(hit);
     this.setState({
       inputLog:this.state.inputLog.concat({number:this.state.SubmitNum,hit:hit,blow:blow}),
       InputNum:'',
@@ -184,14 +183,6 @@ class Main extends React.Component {
             </form>
           {NumErrorText}
         </div>
-        {/*}
-        <Log
-          times='Times'
-          number='Number'
-          hit='Hit'
-          blow='Brow'
-        />
-    */}
         <div className="logtitle">
             <p>Times</p>
             <p>Number</p>
