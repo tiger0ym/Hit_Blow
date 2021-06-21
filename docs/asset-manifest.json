@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Hit_Blow/static/css/main.f535adb2.chunk.css",
-    "main.js": "/Hit_Blow/static/js/main.b73eded1.chunk.js",
-    "main.js.map": "/Hit_Blow/static/js/main.b73eded1.chunk.js.map",
+    "main.css": "/Hit_Blow/static/css/main.87e6a053.chunk.css",
+    "main.js": "/Hit_Blow/static/js/main.467ee81e.chunk.js",
+    "main.js.map": "/Hit_Blow/static/js/main.467ee81e.chunk.js.map",
     "runtime-main.js": "/Hit_Blow/static/js/runtime-main.9badd23d.js",
     "runtime-main.js.map": "/Hit_Blow/static/js/runtime-main.9badd23d.js.map",
     "static/js/2.eb892797.chunk.js": "/Hit_Blow/static/js/2.eb892797.chunk.js",
     "static/js/2.eb892797.chunk.js.map": "/Hit_Blow/static/js/2.eb892797.chunk.js.map",
     "index.html": "/Hit_Blow/index.html",
-    "static/css/main.f535adb2.chunk.css.map": "/Hit_Blow/static/css/main.f535adb2.chunk.css.map",
+    "static/css/main.87e6a053.chunk.css.map": "/Hit_Blow/static/css/main.87e6a053.chunk.css.map",
     "static/js/2.eb892797.chunk.js.LICENSE.txt": "/Hit_Blow/static/js/2.eb892797.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9badd23d.js",
     "static/js/2.eb892797.chunk.js",
-    "static/css/main.f535adb2.chunk.css",
-    "static/js/main.b73eded1.chunk.js"
+    "static/css/main.87e6a053.chunk.css",
+    "static/js/main.467ee81e.chunk.js"
   ]
 }

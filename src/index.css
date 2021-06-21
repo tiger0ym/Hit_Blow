@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 .buttons{
     display: flex;
     justify-content: center;
@@ -65,4 +69,13 @@ h1{
 
 span{
     color:slategray;
+}
+
+.inputselect{
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.inputselect2{
+    display: flex;
 }

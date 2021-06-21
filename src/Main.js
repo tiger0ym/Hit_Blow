@@ -159,14 +159,14 @@ class Main extends React.Component {
       <div>
         <h1>Hit & Blow</h1>
         <div className="digitinput">
-          <select value={this.state.digit} onChange={(event)=>{this.handleDigitChange(event)}} disabled={this.state.playing}>
+          <select value={this.state.digit} onChange={(event)=>{this.handleDigitChange(event)}} disabled={this.state.playing} className="inputselect">
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
             <option>6</option>
           </select>
-          <p>digits</p>
+          <p className="inputselect2">digits</p>
         </div>
         <div className="buttons">
           <StartButton disabled={this.state.playing} clickButton={()=>this.generateNumber()} />
